@@ -365,7 +365,7 @@ var {css,data}=web.model.features;
 out=`<div class="row center">
 <div class="center">
 <b> features Our Awesome Works</b>
-<p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a <br> pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+<p class="section-sub-title">Ayo kita bersama sama memulai menambah pengetahuan tentang hewan</p>
 </div>`;
 
 for(i in data){ val=data[i]
@@ -393,7 +393,7 @@ return `<img class="figure" src="${val.gambar}" alt="${val.nama}"  >`;
 }
 des=function() {
 return `<p> ${svg.view.icon(val.icon)} </p>
-<b>Capture every moments and share it to all your friends</b>
+<b>Abadikan setiap momen dan sebarkan ke teman anda</b>
 <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
 `
 };
@@ -425,9 +425,9 @@ out=`<div class="row col-single">
 <b>Lorem ipsum dolor sit amet</b>
 <img class="float-left" width="320px" src="https://rimba.id/img/photo-4.jpg" alt="">
 <p>Consectetur adipisicing elit. Sint, corrupti deleniti, rem mollitia quam cum quo, animi ipsa praesentium officiis ducimus! Modi aperiam, nulla ipsum, totam natus consequuntur fugiat blanditiis.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste harum, ut magni cupiditate. Nihil ipsum debitis voluptates voluptate illum consectetur sapiente dolorem facilis, eum nobis sequi eveniet assumenda vel voluptatem!</p>
+<p>Ayo dukung kita bang</p>
 <p>Consectetur adipisicing elit. Sint, corrupti deleniti, rem mollitia quam cum quo, animi ipsa praesentium officiis ducimus! Modi aperiam, nulla ipsum, totam natus consequuntur fugiat blanditiis.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste harum, ut magni cupiditate. Nihil ipsum debitis voluptates voluptate illum consectetur sapiente dolorem facilis, eum nobis sequi eveniet assumenda vel voluptatem!</p>
+<p>Ayo dukung kita bang</p>
 
 `;
 out+=`</div>`;
